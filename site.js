@@ -21,6 +21,8 @@
 */
 
 
+
+
 const vue_app = Vue.createApp({
       // This automatically imports your movies.json file and puts it into
       //   the variable: movies
@@ -29,7 +31,7 @@ const vue_app = Vue.createApp({
                   this.movies = json
             })
       },
-      data() {
+      data() {    
         return {
             // This holds your movies.json data.
             movies: [],
